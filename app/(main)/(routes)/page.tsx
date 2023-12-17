@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <UserButton afterSignOutUrl="/" />
       <ModeToggle />
-      <p>Hello A</p>
+      <p>Hello</p>
     </div>
   );
 }
