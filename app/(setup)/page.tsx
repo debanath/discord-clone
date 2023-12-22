@@ -18,7 +18,7 @@ const setupPage = async () => {
   if (server) {
     return redirect(`/servers/${server.id}`);
   }
-  return <div>Create a Server</div>;
+  return <div>Create any Server</div>;
 };
 
 export default setupPage;
